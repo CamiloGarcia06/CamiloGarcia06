@@ -5,7 +5,7 @@ Odoo & Python Developer focused on custom modules, portals, and APIs. I care abo
 ---
 
 ## What I do
-- **Odoo (v16–v17):** accounting/portal features, custom models, controllers, XML/QWeb, security.
+- **Odoo (v12–v18):** accounting/portal features, custom models, controllers, XML/QWeb, security.
 - **Backend:** Python (Odoo ORM), PostgreSQL, REST integrations.
 - **DevOps:** Docker & Compose, Makefile, Git/GitHub, CI-ready project structure.
 - **Data/ML (learning path):** notebooks, classical ML, evaluation and reproducible pipelines.

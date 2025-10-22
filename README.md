@@ -29,9 +29,11 @@ Odoo & Python Developer focused on custom modules, portals, and APIs. I care abo
 - **LinkedIn:** https://www.linkedin.com/in/camilo-garcia-b50957168/
 
 ---
+<!--
 
 ### Stats (optional)
 > Keep it minimal to preserve a professional look. If you like these, uncomment them.
+-->
 
 <!-- GitHub Stats -->
 <!--

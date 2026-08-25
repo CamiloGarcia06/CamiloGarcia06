@@ -1,56 +1,47 @@
 # Juan Camilo Sandoval García — @CamiloGarcia06
 
-Odoo & Python Developer focused on custom modules, portals, and APIs. I care about maintainability, documentation, and reproducible environments (Docker/Makefile). I’m currently strengthening applied AI/ML skills while building high-quality Odoo solutions.
+Odoo & Python developer moving deeper into applied AI/ML and data engineering.
+I build custom Odoo modules and portals by day, and I'm completing a Master's in
+Artificial Intelligence — currently working on a computer-vision thesis on
+multi-object tracking. Common thread across both: reproducible environments,
+readable code, and documentation someone else can actually follow.
 
 ---
 
 ## What I do
-- **Odoo (v12–v18):** accounting/portal features, custom models, controllers, XML/QWeb, security.
-- **Backend:** Python (Odoo ORM), PostgreSQL, REST integrations.
-- **DevOps:** Docker & Compose, Makefile, Git/GitHub, CI-ready project structure.
-- **Data/ML (learning path):** notebooks, classical ML, evaluation and reproducible pipelines.
+- **Odoo (v12–v18):** accounting/portal features, custom models, controllers, XML/QWeb, security, OWL.
+- **Backend:** Python (Odoo ORM), FastAPI, PostgreSQL, REST integrations.
+- **Data & MLOps:** Apache Airflow, MLflow, Weights & Biases, MinIO/S3, idempotent pipelines.
+- **ML & CV:** PyTorch, classical ML, deep learning, multi-object tracking (HOTA/MOTA/IDF1 via TrackEval).
+- **DevOps:** Docker & Compose, Makefile/Taskfile, Git/GitHub, CI-ready project structure.
 
 ## Currently
-- Building and refining Odoo modules and an employee portal.
-- Prototyping AI/ML exercises (RAG, PCA, from-scratch learning notebooks).
-- Standardizing project templates to spin up environments fast.
+- **Master's thesis:** overhead-view multi-object tracking to estimate directional
+  passenger flows (boarding/alighting) in public transport under varying congestion.
+- Building MLOps coursework end to end — orchestration, model registry, serving.
+- Shipping Odoo work and standardizing project templates to spin environments up fast.
 
 ## Selected projects
-- **metodos-matematicos** — AI Master’s coursework (RAG, PCA) with Dockerized structure, Makefile, notebooks.  
-  → https://github.com/CamiloGarcia06/metodos-matematicos
+- **[Multi-Object-Tracking](https://github.com/CamiloGarcia06/Multi-Object-Tracking)** — reproducible
+  PyTorch/CUDA research environment for my MOT thesis: TrackEval metrics, W&B + MLflow tracking,
+  JupyterLab in-container, Taskfile-driven. Built so a two-person team on Windows/macOS/Linux
+  gets the same results.
+- **[Mlops_talleres](https://github.com/CamiloGarcia06/Mlops_talleres)** — Covertype classification
+  pipeline on Airflow: 4-stage DAG (validation → ingestion → transformation → cleaning),
+  models in MinIO, real-time inference through a FastAPI service.
+- **[technical_test_cun](https://github.com/CamiloGarcia06/technical_test_cun)** — Data engineering
+  pipeline GitHub → PostgreSQL → Drive, orchestrated with Airflow. Idempotent loads,
+  documented design decisions, one-command reproducibility from a clean clone.
+- **[claude-fluent](https://github.com/CamiloGarcia06/claude-fluent)** — personal English-learning
+  app on top of Anki: FastAPI backend, no-build frontend, card generation via `claude -p`.
+- **[docker-odoo-18](https://github.com/CamiloGarcia06/docker-odoo-18)** — Makefile-driven
+  Odoo 18 development environment.
 
 ## How I work
 - Readable, well-structured code with docstrings and tests.
-- Reproducibility first (Docker/Compose + Makefile + clear README).
+- Reproducibility first (Docker/Compose + Makefile/Taskfile + a README that actually works).
 - Clear PRs: what changed, why it changed, and how it was validated.
 
 ## Contact
-- **Email:** juancasangar@hotmail.com  
+- **Email:** juancasangar@hotmail.com
 - **LinkedIn:** https://www.linkedin.com/in/camilo-garcia-b50957168/
-
----
-<!--
-
-### Stats (optional)
-> Keep it minimal to preserve a professional look. If you like these, uncomment them.
--->
-
-<!-- GitHub Stats -->
-<!--
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=CamiloGarcia06&show_icons=true&hide_title=true)
--->
-
-<!-- Top Languages (note: repo size can bias this chart) -->
-<!--
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=CamiloGarcia06&layout=compact&langs_count=8&card_width=320)
--->
-
-<!-- Streak (only if you’re consistently active) -->
-<!--
-![GitHub Streak](https://streak-stats.demolab.com?user=CamiloGarcia06&hide_border=true)
--->
-
-<!-- Contribution Activity Graph (use sparingly) -->
-<!--
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=CamiloGarcia06&radius=16&hide_border=true&area=true&custom_title=Contribution%20Activity)
--->
